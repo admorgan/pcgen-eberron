@@ -7,11 +7,11 @@ GENRE:Fantasy
 BOOKTYPE:Homebrew
 SETTING:Eberron
 TYPE:Homebrew.Campaign
-PUBNAMELONG:Eberron Homebrew
-PUBNAMESHORT:Eberron
+PUBNAMELONG:Austin Morgan
+PUBNAMESHORT:AM
 PUBNAMEWEB:http://www.morgancomputers.net
-SOURCELONG:Eberron Mashup
-SOURCESHORT:EM
+SOURCELONG:Eberron
+SOURCESHORT:EB
 SOURCEWEB:http://www.morgancomputers.net
 SOURCEDATE:2013-06
 ISOGL:NO
@@ -27,7 +27,7 @@ COPYRIGHT:Eberron Mashup Campaign, Copyright 2013 by Austin Morgan
 #COMPANIONMOD:my_companionmods.lst
 #DEITY:my_deities.lst
 #DOMAIN:my_domains.lst
-#EQUIPMENT:my_equipment.lst
+EQUIPMENT:eberron_equipment.lst
 #EQUIPMOD:my_equipmods.lst
 #FEAT:my_feats.lst
 #KIT:my_kits.lst
