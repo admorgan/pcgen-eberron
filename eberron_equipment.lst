@@ -8,6 +8,8 @@ Bowstaff	TYPE:Magic.Weapon.Martial.Ranged.Piercing.Container.Projectile.Bow.Long
 
 Warforged Composite Plating	TYPE:Armor.Suit.Standard	COST:0	WT:0	SPELLFAILURE:5	BONUS:COMBAT|AC|2|Type=Armor EQMOD:Fortification (Light)
 
+Belt of Ogre Power	TYPE:Magic.Wonderous.Belt	COST:4000	WT:1	BONUS:STAT|STR|2|TYPE=Enhancement
+
 #Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
 #your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
 #
