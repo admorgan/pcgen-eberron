@@ -122,6 +122,20 @@ Retributive Invisibility	CATEGORY:Special Ability	PRECLASS:1,Warlock=16	TYPE:Int
 Utterdark Blast	CATEGORY:Special Ability	PRECLASS:1,Warlock=16	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Dark Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Utterdark Blast,10+8+CHA
 
 Word of Changing	CATEGORY:Special Ability	PRECLASS:1,Warlock=16	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Dark Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Word of Changing,10+5+CHA
+
+Morphic Immunities	CATEGORY:Special Ability	PRECLASS:1,Warshaper=1	TYPE:Internal.ClassAbility.Warshaper	DESC:Immune to stunning and critical hits
+
+Morphic Weapons	CATEGORY:Special Ability	PRECLASS:1,Warshaper=1	TYPE:Internal.Weapon.Natural.Melee	DESC:As a move action, a warshaper can grow natural weapons such as claws or fangs, allowing a natural attack that deals the appropriate amount of damage according to the size of the new form. These morphic weapons need not be natural weapons the creature already possesses. If your form already has a natural weapon of the type, the weapon deals damage as if it were one category larger. You can change morphic weapons as often as it likes, even if it is using a shapechanging technique such as the polymorph spell or the wild shape class feature that doesn't allow subsequent changes after the initial transformation.
+
+Morphic Body	CATEGORY:Special Ability	PRECLASS:1,Warshaper=2	TYPE:Internal.ClassAbility.Warshaper	BONUS:STAT|STR,CON|4
+
+Morphic Reach	CATEGORY:Special Ability	PRECLASS:1,Warshaper=3	TYPE:Internal.ClassAbility.Warshaper	BONUS:MISC|REACH|5
+
+Morphic Healing	CATEGORY:Special Ability	PRECLASS:1,Warshaper=4	TYPE:Internal.ClassAbility.Warshaper	DESC:Warshaper gains fast healing 2, if you spend a full-round action and succeeds on a Concentration check (DC equal to the total damage it has sustained), you heal 10 points of damage.
+
+# Flashmorph	CATEGORY:Special Ability	PRECLASS:1,Warshaper=5	TYPE:Internal.ClassAbility.Warshaper	DESC:Change form as a move action.
+
+# Multimorph	CATEGORY:Special Ability	PRECLASS:1,Warshaper=5	TYPE:Internal.ClassAbility.Warshaper	DESC:You can change form multiple times during the duration of the spell, spell-like ability, or class feature that enables you to change form. Each change requires a standard action, and only the first transformation heals the warshaper. If the warshaper changes into its natural form, te spell, spell-like ability, or use of wild shape ends.
 #Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
 #your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
 #
