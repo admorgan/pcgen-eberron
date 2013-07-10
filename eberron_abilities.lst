@@ -31,7 +31,7 @@ Breath of the Night	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialA
 
 Dark One's Own Luck	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Dark One's Own Luck,10+2+CHA	PRECLASS:1,Warlock=1
 
-Darkness	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Darkness (Invocation),10+1+CHA	OUTPUTNAME:Devil's Sight	PRECLASS:1,Warlock=1
+Warlock Darkness	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Darkness (Invocation),10+1+CHA	OUTPUTNAME:Devil's Sight	PRECLASS:1,Warlock=1	OUTPUTNAME:Darkness
 	
 Devil's Sight	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Devil's Sight,10+2+CHA	PRECLASS:1,Warlock=1
 
