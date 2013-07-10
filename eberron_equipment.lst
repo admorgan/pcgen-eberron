@@ -6,6 +6,8 @@ Outfit (Explorer's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable.Conta
 
 Bowstaff	TYPE:Magic.Weapon.Martial.Ranged.Piercing.Container.Projectile.Bow.Longbow.Melee.TwoHanded.Simple.Double.Standard.Bludgeoning.Quarterstaff	COST:4600	WT:4	CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8	SOURCEPAGE:Magic Item Compendium pg 48	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement	AUTO:EQUIP|Quarterstaff|Longbow
 
+Warforged Composite Plating	TYPE:Armor.Suit.Standard	COST:0	WT:0	SPELLFAILURE:5	BONUS:COMBAT|AC|2|Type=Armor EQMOD:Fortification (Light)
+
 #Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
 #your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
 #
