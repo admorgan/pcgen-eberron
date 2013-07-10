@@ -1,0 +1,172 @@
+# CVS $Revision: 17893 $ $Author: amaitland $ -- Fri Oct 19 20:16:09 2012 -- reformated by prettylst.pl v1.39 (build 15052)
+SOURCELONG:Eberron	SOURCESHORT:EB	SOURCEWEB:http://www.morgancomputers.net	SOURCEDATE:2013-06
+
+#insert your data here
+Beasthide	TYPE:ShifterRacial.SpecialQuality	CATEGORY:Special Ability	DESC:While shifting, a beasthide shifter gains a +2 bonus to Constitution and natural armour that provides a +2 bonus to AC
+
+Longtooth	TYPE:ShifterRacial.SpecialQuality	CATEGORY:Special Ability	DESC:While shifting, a longtooth shifter gains a +2 bonus to Strength and grows fangs that can be used as a natural weapon, dealing 1d6 points of damage (plus an additional +1 for every four character levels she has) with a successful bite attack. She cannot attack more than once per round with her bite, even if her base attack bonus is high enough to give her multiple attacks. She can user her bite as a secondary attack (taking a -5 penalty on her attack roll) while wielding a weapon.
+
+Razorclaw	TYPE:ShifterRacial.SpecialQuality	CATEGORY:Special Ability	DESC:While shifting, a razorclaw shifter gains a +2 bonus Strength and grows claws that can be used as natural weapons. These claws deal 1d4 points of damage (plus an additional +1 for every four character levels she has) with each successful attack. She can attack with one claw as a standard action or with two claws as a full action (as a primary natural weapon). She cannot attack more than once per round with a single claw, even if her base attack bonus is high enough to give her multiple attacks. She can attack with a claw as a light off-hand weapon while wielding a weapon in her primary hand, but all her attacks in that round take a -2 penalty.
+
+Cliffwalk	TYPE:ShifterRacial.SpecialQuality	CATEGORY:Special Ability	DESC:While shifting, a cliffwalk shifter gains a +2 bonus to Dexterity and has a climb speed of 20 feet.
+
+Longstride	TYPE:ShifterRacial.SpecialQuality	CATEGORY:Special Ability	DESC:While shifting, a longstride shifter gains a +2 bonus to Dexterity and a bonus of +10 feet to her base land speed.
+
+Dreamsight	TYPE:ShifterRacial.SpecialQuality	CATEGORY:Special Ability	DESC:The dreamsight trait is the rarest of all shifter traits, and many dreamsight shifters become druids within shifter communities. Unlike other shifter traits, which increase a shifter's physical abilities, the dreamsight trait sharpens a shifter's instincts and awareness. While shifting a dreamsight shifter temporarily gains a +2 bonus to Wisdom and gains the ability to communicate with animals as if under the effect of a speak with animals spell. In addition the shifter gains a +2 bonus on Handle Animal and wild empathy checks, even while not shifting.
+
+Wildhunt	TYPE:ShifterRacial.SpecialQuality	CATEGORY:Special Ability	DESC:While shifting, a wildhunt shifter gains a +2 bonus to Constitution and the scent ability. This ability allows the shifter to detect approaching enemies, sniff out hidden foes, and track by sense of smell. A wildhunt shifter can identify familiar odors just as a human does familiar sights. A wildhunt shifter can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at triple normal range. These stronger scents block other scents, so they can sometimes be used to confuse or hamper this shifter trait. When a wildhunt shifter detects a scent, the exact location of the source isn’t revealed—only its presence somewhere within range. The shifter can take a move action to note the direction of the scent. Whenever the shifter comes within 5 feet of the source, she pinpoints the source’s location. While shifting, a wildhunt shifter who has the Track feat can follow tracks by smell, making Survival checks to find or follow a trail. The typical DC for a fresh trail is 10 (regardless of the surface that holds the scent). This DC increases or decreases depending on how strong the quarry’s odor is, the number of creatures producing the odor, and the age of the trail. For each hour that the trail grows cold, the DC increases by 2. This ability otherwise follows the rules for the Track feat. Shifters tracking by scent ignore the effects of surface conditions and poor visibility. When not shifting, a wildhunt shifter gains a +2 bonus on Survival checks due to the lingering effects of the scent ability.
+
+Shifting	TYPE:SpecialQuality	CATEGORY:Special Ability	DESC:A shifter can tap into her lycanthropic heritage to gain short bursts of physical power. Once per day, a shifter can enter a state that is superficially similar to a barbarian’s rage. Each shifter has one of six shifter traits—characteristics that manifest them-selves when a character is shifting. Each shifter trait provides a +2 bonus to one of the character’s physical ability scores (Strength, Dexterity, or Constitution) and grants some other advantage as well. Shifter traits are described in the following section. Shifting is a free action and lasts for a number of rounds equal to 3 + the shifter’s Con modifier. (If a shifter trait or other effect increases the character’s Con modifier, use the newly improved modifier.) A shifter can take feats to improve this ability. These shifter feats are described in Chapter 3: Heroic Characteristics. Every shifter feat a character takes increases the duration of shifting by 1 round. For every two shifter feats a character takes, the number of times per day she can tap into the ability increases by one. So, a character with two shifter feats can shift two times per day (instead of the usual one), and each use of the ability lasts for a number of rounds equal to 5 (instead of 3) + the shifter’s Con modifier. Shifting, though related to and developed from lycanthropy, is neither an affliction nor a curse. It is not passed on by bite or claw attacks, and a shifter can’t be cured—shifting is a natural ability for the race.
+
+###Block: Warlock abilities
+
+###Block: Warlock Invocations
+Eldritch Blast	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Eldritch Blast	PRECLASS:1,Warlock=1
+
+Baleful Utterance	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Baleful Utterance,10+2+CHA	PRECLASS:1,Warlock=1
+
+Beguiling Influnce	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Beguiling Influence,10+2+CHA	PRECLASS:1,Warlock=1
+
+Breath of the Night	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Breath of the Night,10+1+CHA	PRECLASS:1,Warlock=1
+
+Dark One's Own Luck	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Dark One's Own Luck,10+2+CHA	PRECLASS:1,Warlock=1
+
+Darkness	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Darkness (Invocation),10+1+CHA	OUTPUTNAME:Devil's Sight	PRECLASS:1,Warlock=1
+	
+Devil's Sight	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Devil's Sight,10+2+CHA	PRECLASS:1,Warlock=1
+
+Earthen Grasp	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Earthen Grasp (Invocation),10+2+CHA	PRECLASS:1,Warlock=1
+
+Eldritch Spear	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Eldritch Spear,10+2+CHA	PRECLASS:1,Warlock=1
+
+Entropic Warding	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Eldritch Spear,10+2+CHA	PRECLASS:1,Warlock=1
+
+Frightful Blast	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Frightful Blast,10+2+CHA	PRECLASS:1,Warlock=1
+
+Hideous Blow	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Hideous Blow,10+1+CHA	PRECLASS:1,Warlock=1
+
+Leaps and Bounds	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Leaps and Bounds,10+2+CHA	PRECLASS:1,Warlock=1
+
+Miasmic Cloud	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Miasmic Cloud,10+1+CHA	PRECLASS:1,Warlock=1
+
+See the Unseen	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|See the Unseen,10+2+CHA	PRECLASS:1,Warlock=1
+
+Sickening Blast	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Sickening Blast,10+2+CHA	PRECLASS:1,Warlock=1
+
+Spiderwalk	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Spiderwalk,10+2+CHA	PRECLASS:1,Warlock=1
+
+Summon Swarm	CATEGORY:Special Ability	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Least Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Summon Swarm (Invocation),10+2+CHA	PRECLASS:1,Warlock=1
+
+Beshadowed Blast	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Beshadowed Blast,10+4+CHA
+
+Brimstone Blast	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Brimstone Blast,10+3+CHA
+
+Charm	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Charm,10+4+CHA
+
+Curse of the Despair	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Curse of the Despair,10+4+CHA
+
+The Dead Walk	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Dead Walk (The),10+4+CHA
+
+Eldritch Chain	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Eldritch Chain,10+4+CHA
+
+Fell Flight	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Fell Flight,10+3+CHA
+
+Flee the Scene	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Flee the Scene,10+4+CHA
+
+Hellrime Blast	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Hellrime Blast,10+4+CHA
+
+Hungry Darkness	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Hungry Darkness,10+3+CHA
+
+Stony Grasp	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Stony Grasp (Invocation),10+3+CHA
+
+Voidsense	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Voidsense,10+4+CHA
+
+Voracious Dispelling	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Voracious Dispelling,10+4+CHA
+
+Walk Unseen	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Lesser Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Walk Unseen,10+2+CHA
+
+Wall of Gloom	CATEGORY:Special Ability	PRECLASS:1,Warlock=6	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Greater Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Wall of Gloom,10+2+CHA
+
+Bewitching Blast	CATEGORY:Special Ability	PRECLASS:1,Warlock=11	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Greater Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Bewitching Blast,10+4+CHA
+
+Chilling Tentacles	CATEGORY:Special Ability	PRECLASS:1,Warlock=11	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Greater Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Chilling Tentacles,10+5+CHA
+
+Devour Magic	CATEGORY:Special Ability	PRECLASS:1,Warlock=11	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Greater Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Devour Magic,10+6+CHA
+
+Eldritch Cone	CATEGORY:Special Ability	PRECLASS:1,Warlock=11	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Greater Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Eldritch Cone,10+5+CHA
+
+Enervating Shadow	CATEGORY:Special Ability	PRECLASS:1,Warlock=11	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Greater Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Enervating Shadow,10+5+CHA
+
+Noxious Blast	CATEGORY:Special Ability	PRECLASS:1,Warlock=11	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Greater Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Noxious Blast,10+6+CHA
+
+Repelling Blast	CATEGORY:Special Ability	PRECLASS:1,Warlock=11	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Greater Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Repelling Blast,10+6+CHA
+
+Tenacious Plague	CATEGORY:Special Ability	PRECLASS:1,Warlock=11	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Greater Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Tenacious Plague,10+6+CHA
+
+Vitriolic Blast		CATEGORY:Special Ability	PRECLASS:1,Warlock=11	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Greater Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Vitriolic Blast,10+6+CHA
+
+Wall of Perilous Flame	CATEGORY:Special Ability	PRECLASS:1,Warlock=11	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Greater Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Wall of Perilous Flame,10+5+CHA
+
+Warlock's Call	CATEGORY:Special Ability	PRECLASS:1,Warlock=11	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Greater Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Warlock's Call,10+5+CHA
+
+Dark Discorporation	CATEGORY:Special Ability	PRECLASS:1,Warlock=16	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Dark Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Dark Discorporation,10+8+CHA
+
+Dark Foresight	CATEGORY:Special Ability	PRECLASS:1,Warlock=16	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Dark Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Dark Foresight,10+9+CHA
+
+Eldritch Doom	CATEGORY:Special Ability	PRECLASS:1,Warlock=16	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Dark Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Eldritch Doom,10+8+CHA
+
+Path of Shadow	CATEGORY:Special Ability	PRECLASS:1,Warlock=16	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Dark Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Path of Shadow,10+6+CHA
+
+Retributive Invisibility	CATEGORY:Special Ability	PRECLASS:1,Warlock=16	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Dark Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Retributive Invisibility,10+6+CHA
+
+Utterdark Blast	CATEGORY:Special Ability	PRECLASS:1,Warlock=16	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Dark Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Utterdark Blast,10+8+CHA
+
+Word of Changing	CATEGORY:Special Ability	PRECLASS:1,Warlock=16	TYPE:Internal.ClassAbility.SpecialAttack.SpellLike.Warlock.Dark Invocation	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=classlevel("Warlock")|Word of Changing,10+5+CHA
+#Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
+#your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
+#
+#When Running PCGen, you can select "Help > Documentation > List Files > List File Tag Index > Feat File tags" to find
+#out how the tags in the feats file work. Some of the tags used here are global tags. You will see an alphabetical
+#listing of all PCGen tags to the left of the documentation window. You can find the global tags there as well.
+#
+# Abilities are the newest method for all aspects of class & race abilities. Currently we use hidden feats to emulate
+# class and racial abilities. The advent of Abilities allows us to use one standard format for a variety of things.
+# Generally Abilities are exactly the same in format as a Feat with the exception of a NEW tag CATEGORY which tells
+# PCGen what the ability is to be categoried as - example: My Ability is part of the my_abilities category, So I can add
+# points only to the my_abilities allowing very small and restricted lists. Another example would be Fighter Bonus feats.
+#
+# Feat and ability are used through out this example as they almost the same thing - ABILITY can also be used to add "Feats"
+# using the CATEGORY:FEAT tag.
+# You can also use PREFEAT for any CATEGORY:FEAT, for the rest you'll need to use PREABILITY:x,CATEGORY=<category>,Foo,TYPE.Bar (x is the number)
+#####1st Example
+
+#My Ability			CATEGORY:my_abilities		TYPE:General.DataMonkey		DESC:See Text						SOURCEPAGE:Custom
+#My Second Ability	CATEGORY:Special			TYPE:MonkeyFoo			DESC:This is the great second ability.		SOURCEPAGE:Custom	PREABILITY:1,CATEGORY=my_abilities,My Ability
+
+###SAMPLE FOR 'Ability by Skill'
+#Ac Ba			CATEGORY:AbilitybySkill		TYPE:AbilitybySkill.Movement	VISIBLE:YES		!PREABILITY:1,CATEGORY=AbilitybySkill,Ac Ba	PRESKILL:1,Tumble=12	PREVARLT:AbilitybySkillCount,AbilitybySkillMax	DEFINE:AbilitybySkillCount|0		DESC:<appropriate description>	BONUS:VAR|AbilitybySkillCount|1
+
+#####
+#Each ability takes one line, just like a feat, and the first field must be the abilities' name. In the Example the name of the ability is My Ability.
+#When naming feats you should only use parentheses at the end of the name if the name is not duplicated elsewhere. This is
+#because of how PCGen names abilities which can be taken multiple times. For example, the Feat/ability Weapon Focus when taken will display
+#as Weapon Focus(Dagger). Another example is Armor Proficiency (Light), there is no feat named Armor Proficiency so this name
+#is fine. What is happening is when PCGen finds a feat with parentheses that duplicates the name of another feat it assumes
+#that feat is an instance of the one without parentheses and does not display the one with parentheses.
+#
+#The TYPE tag is holding a . (period) delimited list of the types the ability/feat is.
+#
+#The DESC tag is used to hold the description of the Ability/Feat. In our files we usually keep the description brief, so the user
+#still need to own the book to make use of of the data, but for your personal files can get as elaborate as you want there.
+#
+#The MULT tag determines if a ability/feat can be taken multiple times. If the value is set to YES, then you MUST also use a CHOOSE
+#tag.
+#
+#The CHOOSE tag must be paired with a MULT:YES tag in feats for it to work properly. It will display a popup window that asks
+#for a selection according to what is being called for. There is a multitude of existing CHOOSE tags in PCGen. If you are
+#looking into the documentation under List File Tag Index, you can find them listed under the topic "CHOOSE tags".
+#
+#The BONUS tags are a group of similar tags, that grant some form of Bonus to another already existing tag. To read a description
+#of them, look in the List File Tag Index under the topic "Bonus tags".
+#
+#The SOURCEPAGE tag can be used to hold a reference to where you can find the feat. This will be displayed in PCGen.

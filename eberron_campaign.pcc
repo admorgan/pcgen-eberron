@@ -2,6 +2,8 @@ CAMPAIGN:Eberron Mashup
 #GAMEMODE:35e
 GAMEMODE:35e
 
+PRECAMPAIGN:1,3.5 RSRD,3.5 RSRD Basics
+
 RANK:8
 GENRE:Fantasy
 BOOKTYPE:Homebrew
@@ -19,23 +21,23 @@ COPYRIGHT:Eberron Mashup Campaign, Copyright 2013 by Austin Morgan
 
 #INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 
-#ABILITY:my_abilities.lst
-#ABILITYCATEGORY:my_ability_categories.lst
+ABILITY:eberron_abilities.lst
+ABILITYCATEGORY:eberron_ability_categories.lst
 #ARMORPROF:my_armorprofs.lst
 #BIOSET:my_biosettings.lst
-#CLASS:my_classes.lst
+CLASS:eberron_classes.lst
 #COMPANIONMOD:my_companionmods.lst
-#DEITY:my_deities.lst
+DEITY:eberron_deities.lst
 #DOMAIN:my_domains.lst
 EQUIPMENT:eberron_equipment.lst
 #EQUIPMOD:my_equipmods.lst
-#FEAT:my_feats.lst
+FEAT:eberron_feats.lst
 #KIT:my_kits.lst
 #LANGUAGE:my_languages.lst
-#RACE:my_races.lst
+RACE:eberron_races.lst
 #SHIELDPROF:my_shieldprofs.lst
 #SKILL:my_skills.lst
-#SPELL:my_spells.lst
+SPELL:eberron_spells.lst
 #TEMPLATE:my_templates.lst
 #WEAPONPROF:my_weaponprofs.lst
 
