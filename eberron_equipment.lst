@@ -4,13 +4,19 @@ SOURCELONG:Eberron	SOURCESHORT:EB	SOURCEWEB:http://www.morgancomputers.net	SOURC
 #insert your data here
 Outfit (Explorer's).MOD	TYPE:Goods.Clothing.Resizable.Container.Starting	CONTAINS:10|Any=10
 
-Bowstaff	TYPE:Magic.Weapon.Martial.Ranged.Piercing.Container.Projectile.Bow.Longbow.Melee.TwoHanded.Simple.Double.Standard.Bludgeoning.Quarterstaff	COST:4600	WT:4	CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8	SOURCEPAGE:Magic Item Compendium pg 48	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement	AUTO:EQUIP|Quarterstaff|Longbow
+Bowstaff	TYPE:Magic.Weapon.Martial.Ranged.Piercing.Container.Projectile.Bow.Longbow.Melee.TwoHanded.Simple.Double.Standard.Bludgeoning.Quarterstaff	COST:4600	WT:4	CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8	SOURCEPAGE:Magic Item Compendium pg 48	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement	AUTO:EQUIP|Quarterstaff|Longbow	CONTAINS:UNLIM|Arrows=20
 
 Warforged Composite Plating	TYPE:Suit.Standard	COST:0	WT:0	SPELLFAILURE:5	BONUS:COMBAT|AC|2|TYPE=Armor EQMOD:FRT_LGHT	PRERACE:1,Warforged
 
 Warforged Mithral Plating	TYPE:Armor.Light.Suit.Standard	COST:0	WT:0	SPELLFAILURE:15	BONUS:COMBAT|AC|5|TYPE=Armor	EQMOD:FRT_LGHT	MAXDEX:5	ACCHECK:-2	PRERACE:1,Warforged	DESC:Granted by Mithral Body Feat
 
 Belt of Ogre Power	TYPE:Magic.Wonderous.Belt	COST:4000	WT:1	BONUS:STAT|STR|2|TYPE=Enhancement
+
+Everbright Lantern	TYPE:Goods.General.LightSource	COST:212	WT:2	SOURCEPAGE:Eberron Campaign Setting pg.265	QUALITY:Bright Illumination|60 ft. cone	QUALITY:Shadowy Illumination|120 ft. cone
+
+Phylactery of Change	TYPE:Magic.Wonderous.Headgear	COST:11200	WT:0	SOURCEPAGE:Arms and Equipment pg.135	SPELLS:Innate|TIMEUNIT=DAY|Polymorph,0	DESC:Wearer of this item can invoke a polymorph self ability with an indefinite duration (or until phylactery is removed, destroyed, or dispelled). A new form can be adopted once per day. The wearer can assume his natural form without limitation however.	SOURCEPAGE:Arms and Equipment pg. 135
+
+Wand Sheath	TYPE:Magic.Container.Embedded.Wonderous.Bracer.Glove	COST:4000	WT:0	CONTAINS:1|Wand=1	DESC:Insert a normal magic wand into the sheath, where it merges with your body. The sheath can hold a single wand and once inserted it can not be removed until all its charges are used up, when it will automatically eject and a new one can be inserted. You can activate the sheathed wand (assuming you can activate the wand normally) by pointing a finger and thinking about activating it. Thus you can use a want in an area of silence or while grappling without difficulty.
 
 #Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
 #your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
