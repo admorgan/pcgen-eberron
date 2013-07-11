@@ -30,7 +30,7 @@ CLASS:eberron_classes.lst
 DEITY:eberron_deities.lst
 #DOMAIN:my_domains.lst
 EQUIPMENT:eberron_equipment.lst
-#EQUIPMOD:my_equipmods.lst
+EQUIPMOD:eberron_equipmods.lst
 FEAT:eberron_feats.lst
 #KIT:my_kits.lst
 #LANGUAGE:my_languages.lst
