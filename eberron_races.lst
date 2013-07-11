@@ -4,7 +4,7 @@ SOURCELONG:Eberron	SOURCESHORT:EB	SOURCEWEB:http://www.morgancomputers.net.net	S
 #insert your data here
 Shifter	STARTFEATS:0	SIZE:M	MOVE:Walk,30	FACE:5	REACH:5	VISION:Low-Light Vision	AUTO:LANG|Common	BONUS:STAT|DEX|2	BONUS:STAT|INT|-2	BONUS:STAT|CHA|-2	BONUS:ABILITYPOOL|Shifter Traits|1	ABILITY:Special Ability|AUTOMATIC|Low-Light Vision	FAVCLASS:Ranger	LANGBONUS:Elven,Gnome,Halfling,Sylvan	RACESUBTYPE:Shapechanger	RACETYPE:Humanoid
 
-Warforged	STARTFEATS:0	SIZE:M	MOVE:Walk,30	FACE:5	REACH:5	AUTO:LANG|Common	BONUS:STAT|CON|2	BONUS:STAT|WIS|-2	BONUS:STAT|CHA|-2	FAVCLASS:Fighter	RACESUBTYPE:Living Construct	RACETYPE:Humanoid	AUTO:EQUIP|Warforged Composite Plating	NATURALATTACKS:Slam,Weapon.Natural.Melee,1,1d4
+Warforged	STARTFEATS:0	SIZE:M	MOVE:Walk,30	FACE:5	REACH:5	AUTO:LANG|Common	BONUS:STAT|CON|2	BONUS:STAT|WIS|-2	BONUS:STAT|CHA|-2	FAVCLASS:Fighter	RACESUBTYPE:Living Construct	RACETYPE:Humanoid	AUTO:EQUIP|Warforged Composite Plating|!PREARMORTYPE:1,Warforge Mithral Plating	NATURALATTACKS:Slam,Weapon.Natural.Melee,1,1d4
 
 #Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
 #your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.

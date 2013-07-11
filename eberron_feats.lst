@@ -5,9 +5,11 @@ SOURCELONG:Eberron	SOURCESHORT:EB	SOURCEWEB:http://www.morgancomputers.net	SOURC
 ###Block: Warlock Invocations
 
 # Feat Name				Output Name						Type								Visible		Required Class		Required Feat				Spells															Multiple?	Choose					Choose a Feat
-Extra Least Invocation																			TYPE:FEAT:ClassFeature.Warlock.ExtraInvocation		VISIBLE:NO						PREABILITY:1,CATEGORY=Lesser Invocation																	MULT:YES	BONUS:ABILITYPOOL|Warlock Least Invocations|1	CHOOSE:NOCHOICE
+Extra Least Invocation																			TYPE:ClassFeature.Warlock.ExtraInvocation		VISIBLE:NO						PREABILITY:1,CATEGORY=Lesser Invocation																	MULT:YES	BONUS:ABILITYPOOL|Warlock Least Invocations|1	CHOOSE:NOCHOICE
 Extra Lesser Invocation																			TYPE:ClassFeature.Warlock.ExtraInvocation		VISIBLE:NO						PREABILITY:1,CATEGORY=Greater Invocation																	MULT:YES	BONUS:ABILITYPOOL|Warlock Lesser Invocations|1	CHOOSE:NOCHOICE
 Extra Greater Invocation																		TYPE:ClassFeature.Warlock.ExtraInvocation		VISIBLE:NO						PREABILITY:1,CATEGORY=Dark Invocation																		MULT:YES	BONUS:ABILITYPOOL|Warlock Greater Invocations|1	CHOOSE:NOCHOICE
+
+Mithral Body	TYPE:General	PRELEVEL:MIN=1,MAX=1	PRERACE:1,Warforged	DESC:Armour bonus is increased to +5 and you are considered to be wearing light armor including all penalties. Warforged Druids who take this feat cannot case druid spells or use any of their druid supernatural or spell-like class abilities. Warforged characters with this feat do not gain the benefit of any class feature prohibited to a character wearing light armor.	AUTO:EQUIP|Warforged Mithral Plating	AUTO:ARMORPROF|ARMORTYPE=Light
 #Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
 #your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
 #

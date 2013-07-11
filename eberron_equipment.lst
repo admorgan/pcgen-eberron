@@ -6,7 +6,9 @@ Outfit (Explorer's).MOD	TYPE:Goods.Clothing.Resizable.Container.Starting	CONTAIN
 
 Bowstaff	TYPE:Magic.Weapon.Martial.Ranged.Piercing.Container.Projectile.Bow.Longbow.Melee.TwoHanded.Simple.Double.Standard.Bludgeoning.Quarterstaff	COST:4600	WT:4	CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8	SOURCEPAGE:Magic Item Compendium pg 48	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement	AUTO:EQUIP|Quarterstaff|Longbow
 
-Warforged Composite Plating	TYPE:Armor.Suit.Standard	COST:0	WT:0	SPELLFAILURE:5	BONUS:COMBAT|AC|2|Type=Armor EQMOD:Fortification (Light)
+Warforged Composite Plating	TYPE:Suit.Standard	COST:0	WT:0	SPELLFAILURE:5	BONUS:COMBAT|AC|2|TYPE=Armor EQMOD:FRT_LGHT	PRERACE:1,Warforged
+
+Warforged Mithral Plating	TYPE:Armor.Light.Suit.Standard	COST:0	WT:0	SPELLFAILURE:15	BONUS:COMBAT|AC|5|TYPE=Armor	EQMOD:FRT_LGHT	MAXDEX:5	ACCHECK:-2	PRERACE:1,Warforged	DESC:Granted by Mithral Body Feat
 
 Belt of Ogre Power	TYPE:Magic.Wonderous.Belt	COST:4000	WT:1	BONUS:STAT|STR|2|TYPE=Enhancement
 
