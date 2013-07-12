@@ -3,7 +3,7 @@ SOURCELONG:Eberron	SOURCESHORT:EB	SOURCEWEB:http://www.morgancomputers.net	SOURC
 
 #insert your data here
 
-CLASS:Warlock	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Intimidate|Jump|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft|Use Magic Device	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|Resistance To Fire|Resistance To Electricity|Resistance To Sonic	HD:6	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|max((CL-2),0)/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+CLASS:Warlock	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Intimidate|Jump|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft|Use Magic Device	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|Resistance To Fire|Resistance To Electricity|Resistance To Sonic	HD:6	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
 1	ABILITY:Special Ability|AUTOMATIC|Eldritch Blast	BONUS:VAR|EldritchBlastDmg|1	DEFINE:EldritchBlastDmg|0	BONUS:ABILITYPOOL|Warlock Least Invocations|1	AUTO:WEAPONPROF|TYPE.Simple	ABILITY:FEAT|AUTOMATIC|Simple Weapon Proficiency|Armor Proficiency (Light)
 2	BONUS:ABILITYPOOL|Warlock Least Invocations|1	SPELLS:Innate|TIMES=ATWILL|Detect Magic,10+CHA
 3	DR:0/cold iron	BONUS:VAR|EldritchBlastDmg|1	BONUS:DR|cold iron|((CL+1)/4)
