@@ -18,6 +18,10 @@ Phylactery of Change	TYPE:Magic.Wonderous.Headgear	COST:11200	WT:0	SOURCEPAGE:Ar
 
 Wand Sheath	TYPE:Magic.Container.Embedded.Wonderous.Bracer.Glove	COST:4000	WT:0	CONTAINS:1|Wand=1	DESC:Insert a normal magic wand into the sheath, where it merges with your body. The sheath can hold a single wand and once inserted it can not be removed until all its charges are used up, when it will automatically eject and a new one can be inserted. You can activate the sheathed wand (assuming you can activate the wand normally) by pointing a finger and thinking about activating it. Thus you can use a want in an area of silence or while grappling without difficulty.
 
+Chasuble of Fell Power (lesser)	TYPE:Magic.Wonderous.Amulet	COST:8000	WT:0	BONUS:VAR|EldritchBlastDmg|1	DESC:Adds 1d6 to Eldritch Blast[automatically applied]	PRESPELL:1|Eldritch Blast	SOURCEPAGE:Complete Arcane pg.148
+
+Chasuble of Fell Power (greater)	TYPE:Magic.Wonderous.Amulet	COST:18000	BONUS:VAR|EldritchBlastDmg|2	PRESPELL:1|Eldritch Blast	DESC:Adds 2d6 to Eldritch Blast [automatically applied]	SOURCEPAGE:Complete Arcane pg.148
+
 #Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
 #your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
 #
