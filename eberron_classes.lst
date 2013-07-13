@@ -24,7 +24,7 @@ CLASS:Warlock	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Int
 18	BONUS:VAR|FiendishResilience|3	BONUS:ABILITYPOOL|Warlock Dark Invocations|1
 20	BONUS:VAR|EldritchBlastDmg|1	BONUS:VAR|ColdResistanceBonus,FireResistanceBonus,AcidResistanceBonus,SonicResistanceBonus,ElectricityResistanceBonus|5|TYPE=Resistance		BONUS:ABILITYPOOL|Warlock Dark Invocations|1
 
-CLASS:Warshaper	HD:8	TYPE:PC.Prestige	ABB:Wsh	MAXLEVEL:5	SOURCELONG:Complete Warior	SOURCESHORT:cmpwar	BONUS:CHECKS|BASE.Fortitude|`	BONUS:COMBAT|BAB|(CL*2)/3|TYPE=Base.REPLACE
+CLASS:Warshaper	HD:8	TYPE:PC.Prestige	ABB:Wsh	MAXLEVEL:5	SOURCELONG:Complete Warior	SOURCESHORT:cmpwar	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:COMBAT|BAB|(CL*2)/3|TYPE=Base.REPLACE
 CLASS:Warshaper	PREATT:4	PREMULT:1,[PRESPELL:1,Polymorph],[PRETEMPLATE:1,Shapechanger],[PRESA:1,Change Shape (Su)],[PREFEAT:1,Wild Shape,Bear Form]
 CLASS:Warshaper	STARTSKILLPTS:2	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Disguise|Escape Artist|Jump|Swim
 1	ABILITY:Special Ability|AUTOMATIC|Morphic Immunities	ABILITY:Special Ability|AUTOMATIC|Morphic Weapons	ABILITY:Special Ability|AUTOMATIC|Fast Healing	BONUS:VAR|FastHealing|2
